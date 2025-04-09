@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
+import { Heart, Github } from "lucide-react";
 
 const CallToAction = () => {
   return (
@@ -26,18 +26,14 @@ const CallToAction = () => {
             Let's Collaborate
           </Button>
           
-          <div className="mt-12 flex flex-wrap justify-center gap-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              GitHub
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              LinkedIn
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              Twitter
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              Email
+          <div className="mt-12 flex justify-center">
+            <a 
+              href="https://github.com/hirah-ma/MyEvacuate" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gray-400 hover:text-white transition-colors flex items-center gap-2"
+            >
+              <Github className="w-5 h-5" /> GitHub
             </a>
           </div>
         </div>
