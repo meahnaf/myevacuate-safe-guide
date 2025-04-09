@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Heart, Github } from "lucide-react";
 
 const CallToAction = () => {
+  const openAndroidStudio = () => {
+    // Try to open Android Studio using an intent URL
+    // This works if Android Studio is installed on the user's machine
+    window.location.href = "intent://launch/androidstudio#Intent;scheme=androidstudio;package=com.android.studio;end";
+  };
+
   return (
     <section className="py-20 bg-black relative overflow-hidden">
       {/* Background Graphics */}
@@ -22,7 +28,10 @@ const CallToAction = () => {
             Together, we can save lives and create resilient communities prepared for any disaster.
           </p>
           
-          <Button className="bg-disaster-500 hover:bg-disaster-600 text-white font-medium px-8 py-6 rounded-lg text-lg hover-scale">
+          <Button 
+            className="bg-disaster-500 hover:bg-disaster-600 text-white font-medium px-8 py-6 rounded-lg text-lg hover-scale"
+            onClick={openAndroidStudio}
+          >
             Let's Collaborate
           </Button>
           
