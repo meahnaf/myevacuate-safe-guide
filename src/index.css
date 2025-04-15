@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -7,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%; /* White background */
-    --foreground: 240 10% 3.9%; /* Dark text */
+    --background: 350 100% 98%; /* Very light red/pink background */
+    --foreground: 0 0% 13%; /* Dark text for contrast */
     
-    --card: 0 0% 100%; /* White card background */
-    --card-foreground: 240 10% 3.9%; /* Dark card text */
+    --card: 350 100% 98%; /* Very light red/pink card background */
+    --card-foreground: 0 0% 13%; /* Dark card text */
     
-    --popover: 0 0% 100%; /* White popover background */
-    --popover-foreground: 240 10% 3.9%; /* Dark popover text */
+    --popover: 350 100% 98%; /* Very light red/pink popover background */
+    --popover-foreground: 0 0% 13%; /* Dark popover text */
     
-    --primary: 21 90% 48%; /* Keep existing primary color */
-    --primary-foreground: 0 0% 98%; /* Light text on primary */
+    --primary: 350 90% 70%; /* Soft, lighter red primary */
+    --primary-foreground: 0 0% 13%; /* Dark text on primary */
     
-    --secondary: 240 4.8% 95.9%; /* Light gray secondary */
-    --secondary-foreground: 240 5.9% 10%; /* Dark text on secondary */
+    --secondary: 10 50% 95%; /* Very light peach secondary */
+    --secondary-foreground: 0 0% 13%; /* Dark text on secondary */
     
-    --muted: 240 4.8% 95.9%; /* Light muted background */
-    --muted-foreground: 240 3.8% 46.1%; /* Muted text */
+    --muted: 10 50% 95%; /* Very light peach muted background */
+    --muted-foreground: 350 20% 50%; /* Muted red text */
     
-    --accent: 12 76% 61%; /* Accent color */
-    --accent-foreground: 0 0% 98%; /* Light text on accent */
+    --accent: 350 90% 70%; /* Soft red accent */
+    --accent-foreground: 0 0% 13%; /* Dark text on accent */
     
-    --destructive: 0 84.2% 60.2%; /* Destructive color */
+    --destructive: 350 90% 60%; /* Soft destructive red */
     --destructive-foreground: 0 0% 98%; /* Light text on destructive */
     
-    --border: 240 5.9% 90%; /* Light border */
-    --input: 240 5.9% 90%; /* Light input border */
-    --ring: 240 5.9% 10%; /* Ring color */
+    --border: 10 30% 90%; /* Light peach border */
+    --input: 10 30% 90%; /* Light peach input border */
+    --ring: 350 50% 50%; /* Soft red ring */
     
     --radius: 0.75rem;
   }
@@ -66,4 +65,3 @@
     @apply transition-transform duration-200 hover:scale-105;
   }
 }
-
