@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 100%; /* White background */
+    --foreground: 240 10% 3.9%; /* Dark text */
     
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%; /* White card background */
+    --card-foreground: 240 10% 3.9%; /* Dark card text */
     
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%; /* White popover background */
+    --popover-foreground: 240 10% 3.9%; /* Dark popover text */
     
-    --primary: 21 90% 48%;
-    --primary-foreground: 240 5.9% 10%;
+    --primary: 21 90% 48%; /* Keep existing primary color */
+    --primary-foreground: 0 0% 98%; /* Light text on primary */
     
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%; /* Light gray secondary */
+    --secondary-foreground: 240 5.9% 10%; /* Dark text on secondary */
     
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 240 4.8% 95.9%; /* Light muted background */
+    --muted-foreground: 240 3.8% 46.1%; /* Muted text */
     
-    --accent: 12 76% 61%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 12 76% 61%; /* Accent color */
+    --accent-foreground: 0 0% 98%; /* Light text on accent */
     
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%; /* Destructive color */
+    --destructive-foreground: 0 0% 98%; /* Light text on destructive */
     
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --border: 240 5.9% 90%; /* Light border */
+    --input: 240 5.9% 90%; /* Light input border */
+    --ring: 240 5.9% 10%; /* Ring color */
     
     --radius: 0.75rem;
   }
@@ -66,3 +66,4 @@
     @apply transition-transform duration-200 hover:scale-105;
   }
 }
+

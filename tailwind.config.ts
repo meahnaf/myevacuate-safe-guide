@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,7 +62,6 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors
 				disaster: {
 					'50': '#fff7ed',
 					'100': '#ffedd5',
@@ -76,7 +74,6 @@ export default {
 					'800': '#9a3412',
 					'900': '#7c2d12',
 				},
-				// Additional themes
 				alert: '#ea384c',
 				warning: '#f59e0b',
 				success: '#10b981',
